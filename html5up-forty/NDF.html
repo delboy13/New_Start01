@@ -46,9 +46,9 @@
 
 						<!-- One -->
 							<section id="one">
-								<div class="inner">
+								<div  class="inner">
 									<header class="major">
-										<h1>NDF</h1>
+										<h1 >NDF</h1>
 									</header>
 									<span class="image main"><img src="images/pic11.jpg" alt="" /></span>
 									<p>Throughout my TDP journey I feel i have been able to acheive the 6 NDF competencies.</p>
@@ -68,23 +68,34 @@
 							</section>
 						<!-- <section > ID for section?? -->
 								<section id="two">
-								<a href="#"><div >
-								<p><h1>Always Learning</h1></p>
-								<blockquote><p>We learn from our experience everyday and take on board feedback.
-									<br>We keep our skills and knowledge up to date and share with others, using this new thinking to develop and apply in our work</p>
-								</blockquote>
-								</div></a> <!-- NEED TO PLACE ID IN DIV??-->
-								</section >
-								<section id="three">
-									<a href="#"><div>
-									<p><h1>Get The Job Done</h1></p>
-									<blockquote><p>With guidance, we plan and manage our own work, prioritising the most important things.
-										<br>We identify difficulties, monitor and review our progress and work hard to achieve our goals.</p>
-									</blockquote>
-									</div></a> <!-- NEED TO PLACE ID IN DIV??-->
-								</section>
+								
+                                   <a href="#"><div id="root" onclick="alwaysLearning()">
+                                        <p>
+                                            <h1>Always Learning</h1>
+                                        </p>
+                                        <blockquote>
+                                            <p>We learn from our experience everyday and take on board feedback.
+                                                <br>We keep our skills and knowledge up to date and share with others, using this new thinking to develop and apply in our work
+                                            </p>
+                                        </blockquote>
+
+                                    </div></a>
+                                </section >
+                                
+                                    <section id="three">
+                                        
+                                            <a href="#"><div id="root1" onclick="jobDone()">
+                                                <p><h1>Get The Job Done</h1></p>
+                                                <blockquote><p>With guidance, we plan and manage our own work, prioritising the most important things.
+                                                    <br>We identify difficulties, monitor and review our progress and work hard to achieve our goals.</p>
+                                                </blockquote>
+                                        </div>
+                                   </a>
+                                    </section>
+
+
 								<section id="four">
-									<a href="#"><div id="four">
+									<a href="#"><div onclick="improving()" id="four">
 									<p><h1>Keep Improving</h1></p>
 									<blockquote><p>We put forward new and sometimes creative ideas and solutions that are important for out team or community.
 										<br>We help shape and support change, overcoming any difficulties to embrace news ways of working</p>
@@ -92,7 +103,7 @@
 									</div></a> <!-- NEED TO PLACE ID IN DIV??-->
 								</section>
 								<section id="five">
-									<a href="#"><div >
+									<a href="#"><div onclick="safe()" >
 									<p><h1>Keep Safe</h1></p>
 								<blockquote><p>We understand the importance of our standard processes and procedures in keeping us reiable and consistent, and follow these at all times to provide good customer outcomes.
 										<br>We raise issues and escalate them appropriately.</p>
@@ -100,7 +111,7 @@
 									</div></a> <!-- NEED TO PLACE ID IN DIV??-->
 								</section>
 								<section id="six">
-									<a href="#"><div >
+									<a href="#"><div onclick="think()" >
 									<p><h1>Think It Through</h1></p>
 								<blockquote><p>We look for information to help our understanding, and know where to find missing information.
 										<br>We find patterns and errors and produce logical and practical solutions to solve in-depth technical and business problems.</p>
@@ -108,7 +119,7 @@
 									</div></a> <!-- NEED TO PLACE ID IN DIV??-->
 								</section>
 								<section id="seven">
-									<a href="#"><div >
+									<a href="#"><div onclick="together()">
 									<p><h1>Work Together</h1></p>
 								<blockquote><p>We actively try to understand other's needs, opinions and expectations and the value of a range of perspectives, giving us a truly inclusive approach.
 										<br>We look out for the well-being of our colleagues and help them in challenging circumstances.</p>
@@ -118,69 +129,11 @@
 						<!-- </section> -->
 					</div>
 
-				<!-- Contact
-					<section id="contact">
-						<div class="inner">
-							<section>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="6"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Clear" /></li>
-									</ul>
-								</form>
-							</section>
-							<section class="split">
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-envelope"></span>
-										<h3>Email</h3>
-										<a href="#">information@untitled.tld</a>
-									</div>
-								</section>
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-phone"></span>
-										<h3>Phone</h3>
-										<span>(000) 000-0000 x12387</span>
-									</div>
-								</section>
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-home"></span>
-										<h3>Address</h3>
-										<span>1234 Somewhere Road #5432<br />
-										Nashville, TN 00000<br />
-										United States of America</span>
-									</div>
-								</section>
-							</section>
-						</div>
-					</section> -->
 
 				<!-- Footer -->
 					<footer id="footer">
 						<div class="inner">
-							<!-- <ul class="icons">
-								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-							</ul> -->
+		
 							<ul class="copyright">
 								<li>&copy; Jaye Peacey</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
 							</ul>
@@ -197,6 +150,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+            <script src="assets/js/functions.js"></script>
 
 	</body>
 </html>

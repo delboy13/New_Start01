@@ -5,14 +5,14 @@
 */
 
 (function($) {
-
+// $() shorthand for document.getElementById
 	var	$window = $(window),
 		$body = $('body'),
 		$wrapper = $('#wrapper'),
 		$header = $('#header'),
 		$banner = $('#banner');
 
-	// Breakpoints.
+	// Breakpoints. changing screen size?
 		breakpoints({
 			xlarge:    ['1281px',   '1680px'   ],
 			large:     ['981px',    '1280px'   ],

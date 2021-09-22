@@ -85,119 +85,646 @@ Image.style.color ='green'
 // Function to render the Tasks page with linked tasks being shown in green
 function jobDone() {
     var body = document.getElementById("wrapper");
-    var script = ``
+    var script = `<div id="wrapper">
+
+    <!-- Header -->
+        <header id="header">
+            <a href="index.html" class="logo">
+                <strong>Truth Trekker</strong> <span>Exploring Space</span>
+            </a>
+            <nav>
+                <a href="index.html">Menu</a>
+            </nav>
+        </header>
+
+    <!-- Drop Down Menu -->
+        <nav id="menu">
+            <ul class="links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="intro.html">TDP</a></li>
+                <li><a href="NDF.html">NDF</a></li>
+                <li><a href="SFIA.html">SFIA</a></li>
+                <li><a href="tasks.html">TASKS</a></li>
+            </ul>
+            
+        </nav>
+
+    <!-- Main -->
+        <div id="main" class="alt">
+
+            <!-- One -->
+                 <section id="one">
+                    <div class="inner">
+                        <header class="major">
+                            <h1>TASKS</h1>
+                        </header>
+
+<!-- <nav> -->
+<div class="row">
+
+<div class="col-6 col-12-small">
+<fieldset style="border: 5pt; border-color: black; border-style: solid; padding: 10px;">
+<legend style="font-size: 2rem">Learning</legend>
+
+<h4><a href="pluralsight.html" style="color: yellow;">Pluralsight</h4></a>
+<h4><a href="Degreed.html" style="color: yellow;">Degreed</h4></a> 
+<h4><a href="ABAP.html" style="color: yellow;">ABAP</h4></a> 
+<h4><a href="W3Schools.html" style="color: yellow;">W3Schools, YouTube</h4></a>
+<h4><a href="amigos.html" style="color: yellow;">SQL AMIGOS</a></h4>
+<h4><a href="sql.html" style="color: yellow;">SQL</a></h4>
+<!-- </fieldset> -->
+<!-- </div> -->
+<!-- </div> -->
+<!-- <br> -->
+
+<!-- <div class="col-4 col-12-medium"> -->
+<!-- <fieldset style="border: 5pt; border-color: black; border-style: solid; padding: 10px;"> -->
+<!-- <legend style="font-size: 2rem">Learning</legend> -->
+<h4><a href="jira.html" style="color: yellow;">JIRA</a></h4>
+<h4><a href="talkclub.html">Talk Club</a></h4>
+<h4><a href="feedback.html" style="color: yellow;">Feedback</a></h4>
+<h4><a href="DA.html">DA Meeting</a></h4>
+<h4><a href="newsletter.html">TDP Newsletter</a></h4>
+<h4><a href="friday.html" style="color: yellow;">Friday Catch up</a></h4>
+</div>
+</fieldset>
+
+<!-- <br> -->
+
+<!-- <h3>Experience</h3> -->
+<div class="col-6 col-12-small">
+<fieldset style="border: 5pt; border-color: black; border-style: solid; padding: 10px; ">
+<legend style="font-size: 2rem">Activities</legend>
+<h4><a href="FCA.html">FCA DATA Request</a></h4>
+<h4><a href="cardms.html">CARDS POC</a></h4>
+<h4><a href="performance.html">Performance Testing</a></h4>
+<h4><a href="emsi.html">EMSI API</a> </h4>
+<h4><a href="hackathon.html" style="color: yellow;">Hackathon</a></h4>
+<h4><a href="academy.html" style="color: yellow;">QA Academy</a></h4>
+<h4><a href="project.html" style="color: yellow;">Personal Project</a></h4>
+</fieldset>
+</div>
+</div>		
+
+
+<!-- </nav>										   -->
+
+                     </div> 
+                    
+                 </section> 
+
+        </div>
+
+<!-- Footer -->
+        <footer id="footer">
+            <div class="inner">
+                <ul class="copyright">
+                    <li>&copy; Jaye Peacey</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+                </ul>
+            </div>
+        </footer>
+
+</div>`;
+    body.innerHTML = script;
+
 }
 function alwaysLearning()
 {
 
     var body = document.getElementById("wrapper");
-    var script = `<!-- Wrapper -->
-    <div id="wrapper">
+    var script = `<div id="wrapper">
 
-        <!-- Header -->
-            <header id="header">
-                <img src="C:\FOLDERS\Planets\html5up-forty\images/Logo.png" >
-                <a href="index.html" class="logo"><strong>Truth Trekker</strong> <span>Exploring Space</span></a>
-                <nav>
-                    <a href="#menu">Menu</a>
-                </nav>
-            </header>
-
-        <!-- Menu -->
-            <nav id="menu">
-                <ul class="links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="intro.html">TDP</a></li>
-                    <li><a href="NDF.html">NDF</a></li>
-                    <li><a href="SFIA.html">SFIA</a></li>
-                    <li><a href="tasks.html">TASKS</a></li>
-                </ul>
-                <!-- <ul class="actions stacked">
-                    <li><a href="#" class="button primary fit">Get Started</a></li>
-                    <li><a href="#" class="button fit">Log In</a></li>
-                </ul> -->
+    <!-- Header -->
+        <header id="header">
+            <a href="index.html" class="logo">
+                <strong>Truth Trekker</strong> <span>Exploring Space</span>
+            </a>
+            <nav>
+                <a href="index.html">Menu</a>
             </nav>
+        </header>
 
-        <!-- Main -->
-            <div id="main" class="alt">
+    <!-- Drop Down Menu -->
+        <nav id="menu">
+            <ul class="links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="intro.html">TDP</a></li>
+                <li><a href="NDF.html">NDF</a></li>
+                <li><a href="SFIA.html">SFIA</a></li>
+                <li><a href="tasks.html">TASKS</a></li>
+            </ul>
+            
+        </nav>
 
-                <!-- One -->
-                    <section id="one">
-                        <h1>TASKS</h1>
-                        <div>
-                        
-                            <!-- <pre><code>										  -->
-<nav>
-<ul>
-<li><a href="pluralsight.html">Pluralsight</li></a>
-<li><a href="Degreed.html">Degreed</li></a> 
-<li><a href="ABAP.html">ABAP</li></a> 
-<li><a href="W3Schools.html">W3Schools, YouTube</li></a>
-<li><a href="amigos.html">SQL AMIGOS</a></li>
-<li><a href="sql.html">SQL</a></li>
-<li><a href="jira.html">JIRA</a></li>
-<li><a href="talkclub.html">Talk Club</a></li>
-<li><a href="feedback.html" style="color: green;">Feedback</a></li>
-<li><a href="DA.html">DA Meeting</a></li>
-<li><a href="newsletter.html">TDP Newsletter</a></li>
-<li><a href="friday.html">Friday Catch up</a></li>
-<br>
-<h3>Experience</h3>
-<ul>
-    <li><a href="FCA.html">FCA DATA Request</a></li>
-    <li><a href="cardms.html">CARDS POC</a></li>
-    <li><a href="performance.html">Performance Testing</a></li>
-    <li><a href="emsi.html">EMSI API</a> </li>
-    <li><a href="hackathon.html">Hackathon</a></li>
-    <li><a href="academy.html">QA Academy</a></li>
-    <li><a href="project.html">Personal Project</a></li>
-</ul>
+    <!-- Main -->
+        <div id="main" class="alt">
 
-</ul>
-</nav>										 
-                            <!-- </code></pre> -->
+            <!-- One -->
+                 <section id="one">
+                    <div class="inner">
+                        <header class="major">
+                            <h1>TASKS</h1>
+                        </header>
 
-                        </div>
-                        
-                    </section>
+<!-- <nav> -->
+<div class="row">
 
-            </div>
+<div class="col-6 col-12-small">
+<fieldset style="border: 5pt; border-color: black; border-style: solid; padding: 10px;">
+<legend style="font-size: 2rem">Learning</legend>
 
-        <!-- Contact -->
-            <section id="contact">
-                <div class="inner">
+<h4><a href="pluralsight.html" style="color: yellow;">Pluralsight</h4></a>
+<h4><a href="Degreed.html" style="color: yellow;">Degreed</h4></a> 
+<h4><a href="ABAP.html" style="color: yellow;">ABAP</h4></a> 
+<h4><a href="W3Schools.html" style="color: yellow;">W3Schools, YouTube</h4></a>
+<h4><a href="amigos.html" style="color: yellow;">SQL AMIGOS</a></h4>
+<h4><a href="sql.html" style="color: yellow;">SQL</a></h4>
+<!-- </fieldset> -->
+<!-- </div> -->
+<!-- </div> -->
+<!-- <br> -->
+
+<!-- <div class="col-4 col-12-medium"> -->
+<!-- <fieldset style="border: 5pt; border-color: black; border-style: solid; padding: 10px;"> -->
+<!-- <legend style="font-size: 2rem">Learning</legend> -->
+<h4><a href="jira.html" style="color: yellow;">JIRA</a></h4>
+<h4><a href="talkclub.html" style="color: yellow;">Talk Club</a></h4>
+<h4><a href="feedback.html" style="color: yellow;">Feedback</a></h4>
+<h4><a href="DA.html">DA Meeting</a></h4>
+<h4><a href="newsletter.html" style="color: yellow;">TDP Newsletter</a></h4>
+<h4><a href="friday.html" style="color: yellow;">Friday Catch up</a></h4>
+</div>
+</fieldset>
+
+<!-- <br> -->
+
+<!-- <h3>Experience</h3> -->
+<div class="col-6 col-12-small">
+<fieldset style="border: 5pt; border-color: black; border-style: solid; padding: 10px; ">
+<legend style="font-size: 2rem">Activities</legend>
+<h4><a href="FCA.html">FCA DATA Request</a></h4>
+<h4><a href="cardms.html">CARDS POC</a></h4>
+<h4><a href="performance.html">Performance Testing</a></h4>
+<h4><a href="emsi.html" style="color: yellow;">EMSI API</a> </h4>
+<h4><a href="hackathon.html" style="color: yellow;">Hackathon</a></h4>
+<h4><a href="academy.html" style="color: yellow;">QA Academy</a></h4>
+<h4><a href="project.html" style="color: yellow;">Personal Project</a></h4>
+</fieldset>
+</div>
+</div>		
+
+
+<!-- </nav>										   -->
+
+                     </div> 
                     
-                </div>
-            </section>
+                 </section> 
 
-        <!-- Footer -->
-            <footer id="footer">
-                <div class="inner">
-                    <!-- <ul class="icons">
-                        <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-                        <li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-                        <li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-                        <li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-                        <li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-                    </ul> -->
-                    <ul class="copyright">
-                        <li>&copy; Jaye Peacey</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
-                    </ul>
-                </div>
-            </footer>
+        </div>
 
-    </div>
+<!-- Footer -->
+        <footer id="footer">
+            <div class="inner">
+                <ul class="copyright">
+                    <li>&copy; Jaye Peacey</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+                </ul>
+            </div>
+        </footer>
 
-<!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
+</div>
 `;
 
     
     body.innerHTML = script;
 };
+
+
+
+function improving() {
+    var body = document.getElementById("wrapper");
+    var script = `<div id="wrapper">
+
+    <!-- Header -->
+        <header id="header">
+            <a href="index.html" class="logo">
+                <strong>Truth Trekker</strong> <span>Exploring Space</span>
+            </a>
+            <nav>
+                <a href="index.html">Menu</a>
+            </nav>
+        </header>
+
+    <!-- Drop Down Menu -->
+        <nav id="menu">
+            <ul class="links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="intro.html">TDP</a></li>
+                <li><a href="NDF.html">NDF</a></li>
+                <li><a href="SFIA.html">SFIA</a></li>
+                <li><a href="tasks.html">TASKS</a></li>
+            </ul>
+            
+        </nav>
+
+    <!-- Main -->
+        <div id="main" class="alt">
+
+            <!-- One -->
+                 <section id="one">
+                    <div class="inner">
+                        <header class="major">
+                            <h1>TASKS</h1>
+                        </header>
+
+<!-- <nav> -->
+<div class="row">
+
+<div class="col-6 col-12-small">
+<fieldset style="border: 5pt; border-color: black; border-style: solid; padding: 10px;">
+<legend style="font-size: 2rem">Learning</legend>
+
+<h4><a href="pluralsight.html" style="color: yellow;">Pluralsight</h4></a>
+<h4><a href="Degreed.html" style="color: yellow;">Degreed</h4></a> 
+<h4><a href="ABAP.html" style="color: yellow;">ABAP</h4></a> 
+<h4><a href="W3Schools.html" style="color: yellow;">W3Schools, YouTube</h4></a>
+<h4><a href="amigos.html" style="color: yellow;">SQL AMIGOS</a></h4>
+<h4><a href="sql.html" style="color: yellow;">SQL</a></h4>
+<!-- </fieldset> -->
+<!-- </div> -->
+<!-- </div> -->
+<!-- <br> -->
+
+<!-- <div class="col-4 col-12-medium"> -->
+<!-- <fieldset style="border: 5pt; border-color: black; border-style: solid; padding: 10px;"> -->
+<!-- <legend style="font-size: 2rem">Learning</legend> -->
+<h4><a href="jira.html" style="color: yellow;">JIRA</a></h4>
+<h4><a href="talkclub.html">Talk Club</a></h4>
+<h4><a href="feedback.html" style="color: yellow;">Feedback</a></h4>
+<h4><a href="DA.html">DA Meeting</a></h4>
+<h4><a href="newsletter.html">TDP Newsletter</a></h4>
+<h4><a href="friday.html" style="color: yellow;">Friday Catch up</a></h4>
+</div>
+</fieldset>
+
+<!-- <br> -->
+
+<!-- <h3>Experience</h3> -->
+<div class="col-6 col-12-small">
+<fieldset style="border: 5pt; border-color: black; border-style: solid; padding: 10px; ">
+<legend style="font-size: 2rem">Activities</legend>
+<h4><a href="FCA.html">FCA DATA Request</a></h4>
+<h4><a href="cardms.html">CARDS POC</a></h4>
+<h4><a href="performance.html">Performance Testing</a></h4>
+<h4><a href="emsi.html">EMSI API</a> </h4>
+<h4><a href="hackathon.html" style="color: yellow;">Hackathon</a></h4>
+<h4><a href="academy.html" style="color: yellow;">QA Academy</a></h4>
+<h4><a href="project.html" style="color: yellow;">Personal Project</a></h4>
+</fieldset>
+</div>
+</div>		
+
+
+<!-- </nav>										   -->
+
+                     </div> 
+                    
+                 </section> 
+
+        </div>
+
+<!-- Footer -->
+        <footer id="footer">
+            <div class="inner">
+                <ul class="copyright">
+                    <li>&copy; Jaye Peacey</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+                </ul>
+            </div>
+        </footer>
+
+</div>`;
+    body.innerHTML = script;
+
+}
+
+
+
+function safe() {
+    var body = document.getElementById("wrapper");
+    var script = `<div id="wrapper">
+
+    <!-- Header -->
+        <header id="header">
+            <a href="index.html" class="logo">
+                <strong>Truth Trekker</strong> <span>Exploring Space</span>
+            </a>
+            <nav>
+                <a href="index.html">Menu</a>
+            </nav>
+        </header>
+
+    <!-- Drop Down Menu -->
+        <nav id="menu">
+            <ul class="links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="intro.html">TDP</a></li>
+                <li><a href="NDF.html">NDF</a></li>
+                <li><a href="SFIA.html">SFIA</a></li>
+                <li><a href="tasks.html">TASKS</a></li>
+            </ul>
+            
+        </nav>
+
+    <!-- Main -->
+        <div id="main" class="alt">
+
+            <!-- One -->
+                 <section id="one">
+                    <div class="inner">
+                        <header class="major">
+                            <h1>TASKS</h1>
+                        </header>
+
+<!-- <nav> -->
+<div class="row">
+
+<div class="col-6 col-12-small">
+<fieldset style="border: 5pt; border-color: black; border-style: solid; padding: 10px;">
+<legend style="font-size: 2rem">Learning</legend>
+
+<h4><a href="pluralsight.html">Pluralsight</h4></a>
+<h4><a href="Degreed.html" >Degreed</h4></a> 
+<h4><a href="ABAP.html" >ABAP</h4></a> 
+<h4><a href="W3Schools.html" >W3Schools, YouTube</h4></a>
+<h4><a href="amigos.html" >SQL AMIGOS</a></h4>
+<h4><a href="sql.html" >SQL</a></h4>
+<!-- </fieldset> -->
+<!-- </div> -->
+<!-- </div> -->
+<!-- <br> -->
+
+<!-- <div class="col-4 col-12-medium"> -->
+<!-- <fieldset style="border: 5pt; border-color: black; border-style: solid; padding: 10px;"> -->
+<!-- <legend style="font-size: 2rem">Learning</legend> -->
+<h4><a href="jira.html" >JIRA</a></h4>
+<h4><a href="talkclub.html">Talk Club</a></h4>
+<h4><a href="feedback.html" >Feedback</a></h4>
+<h4><a href="DA.html">DA Meeting</a></h4>
+<h4><a href="newsletter.html">TDP Newsletter</a></h4>
+<h4><a href="friday.html" >Friday Catch up</a></h4>
+</div>
+</fieldset>
+
+<!-- <br> -->
+
+<!-- <h3>Experience</h3> -->
+<div class="col-6 col-12-small">
+<fieldset style="border: 5pt; border-color: black; border-style: solid; padding: 10px; ">
+<legend style="font-size: 2rem">Activities</legend>
+<h4><a href="FCA.html">FCA DATA Request</a></h4>
+<h4><a href="cardms.html">CARDS POC</a></h4>
+<h4><a href="performance.html">Performance Testing</a></h4>
+<h4><a href="emsi.html">EMSI API</a> </h4>
+<h4><a href="hackathon.html" >Hackathon</a></h4>
+<h4><a href="academy.html" >QA Academy</a></h4>
+<h4><a href="project.html" >Personal Project</a></h4>
+</fieldset>
+</div>
+</div>		
+
+
+<!-- </nav>										   -->
+
+                     </div> 
+                    
+                 </section> 
+
+        </div>
+
+<!-- Footer -->
+        <footer id="footer">
+            <div class="inner">
+                <ul class="copyright">
+                    <li>&copy; Jaye Peacey</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+                </ul>
+            </div>
+        </footer>
+
+</div>`;
+    body.innerHTML = script;
+
+}
+
+
+function think() {
+    var body = document.getElementById("wrapper");
+    var script = `<div id="wrapper">
+
+    <!-- Header -->
+        <header id="header">
+            <a href="index.html" class="logo">
+                <strong>Truth Trekker</strong> <span>Exploring Space</span>
+            </a>
+            <nav>
+                <a href="index.html">Menu</a>
+            </nav>
+        </header>
+
+    <!-- Drop Down Menu -->
+        <nav id="menu">
+            <ul class="links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="intro.html">TDP</a></li>
+                <li><a href="NDF.html">NDF</a></li>
+                <li><a href="SFIA.html">SFIA</a></li>
+                <li><a href="tasks.html">TASKS</a></li>
+            </ul>
+            
+        </nav>
+
+    <!-- Main -->
+        <div id="main" class="alt">
+
+            <!-- One -->
+                 <section id="one">
+                    <div class="inner">
+                        <header class="major">
+                            <h1>TASKS</h1>
+                        </header>
+
+<!-- <nav> -->
+<div class="row">
+
+<div class="col-6 col-12-small">
+<fieldset style="border: 5pt; border-color: black; border-style: solid; padding: 10px;">
+<legend style="font-size: 2rem">Learning</legend>
+
+<h4><a href="pluralsight.html">Pluralsight</h4></a>
+<h4><a href="Degreed.html" >Degreed</h4></a> 
+<h4><a href="ABAP.html" >ABAP</h4></a> 
+<h4><a href="W3Schools.html" >W3Schools, YouTube</h4></a>
+<h4><a href="amigos.html" >SQL AMIGOS</a></h4>
+<h4><a href="sql.html" >SQL</a></h4>
+<!-- </fieldset> -->
+<!-- </div> -->
+<!-- </div> -->
+<!-- <br> -->
+
+<!-- <div class="col-4 col-12-medium"> -->
+<!-- <fieldset style="border: 5pt; border-color: black; border-style: solid; padding: 10px;"> -->
+<!-- <legend style="font-size: 2rem">Learning</legend> -->
+<h4><a href="jira.html" >JIRA</a></h4>
+<h4><a href="talkclub.html">Talk Club</a></h4>
+<h4><a href="feedback.html" >Feedback</a></h4>
+<h4><a href="DA.html">DA Meeting</a></h4>
+<h4><a href="newsletter.html">TDP Newsletter</a></h4>
+<h4><a href="friday.html" >Friday Catch up</a></h4>
+</div>
+</fieldset>
+
+<!-- <br> -->
+
+<!-- <h3>Experience</h3> -->
+<div class="col-6 col-12-small">
+<fieldset style="border: 5pt; border-color: black; border-style: solid; padding: 10px; ">
+<legend style="font-size: 2rem">Activities</legend>
+<h4><a href="FCA.html">FCA DATA Request</a></h4>
+<h4><a href="cardms.html">CARDS POC</a></h4>
+<h4><a href="performance.html">Performance Testing</a></h4>
+<h4><a href="emsi.html">EMSI API</a> </h4>
+<h4><a href="hackathon.html" >Hackathon</a></h4>
+<h4><a href="academy.html" >QA Academy</a></h4>
+<h4><a href="project.html" >Personal Project</a></h4>
+</fieldset>
+</div>
+</div>		
+
+
+<!-- </nav>										   -->
+
+                     </div> 
+                    
+                 </section> 
+
+        </div>
+
+<!-- Footer -->
+        <footer id="footer">
+            <div class="inner">
+                <ul class="copyright">
+                    <li>&copy; Jaye Peacey</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+                </ul>
+            </div>
+        </footer>
+
+</div>`;
+    body.innerHTML = script;
+
+}
+
+
+function together() {
+    var body = document.getElementById("wrapper");
+    var script = `<div id="wrapper">
+
+    <!-- Header -->
+        <header id="header">
+            <a href="index.html" class="logo">
+                <strong>Truth Trekker</strong> <span>Exploring Space</span>
+            </a>
+            <nav>
+                <a href="index.html">Menu</a>
+            </nav>
+        </header>
+
+    <!-- Drop Down Menu -->
+        <nav id="menu">
+            <ul class="links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="intro.html">TDP</a></li>
+                <li><a href="NDF.html">NDF</a></li>
+                <li><a href="SFIA.html">SFIA</a></li>
+                <li><a href="tasks.html">TASKS</a></li>
+            </ul>
+            
+        </nav>
+
+    <!-- Main -->
+        <div id="main" class="alt">
+
+            <!-- One -->
+                 <section id="one">
+                    <div class="inner">
+                        <header class="major">
+                            <h1>TASKS</h1>
+                        </header>
+
+<!-- <nav> -->
+<div class="row">
+
+<div class="col-6 col-12-small">
+<fieldset style="border: 5pt; border-color: black; border-style: solid; padding: 10px;">
+<legend style="font-size: 2rem">Learning</legend>
+
+<h4><a href="pluralsight.html">Pluralsight</h4></a>
+<h4><a href="Degreed.html" >Degreed</h4></a> 
+<h4><a href="ABAP.html" >ABAP</h4></a> 
+<h4><a href="W3Schools.html" >W3Schools, YouTube</h4></a>
+<h4><a href="amigos.html"style="color: yellow;" >SQL AMIGOS</a></h4>
+<h4><a href="sql.html" >SQL</a></h4>
+<!-- </fieldset> -->
+<!-- </div> -->
+<!-- </div> -->
+<!-- <br> -->
+
+<!-- <div class="col-4 col-12-medium"> -->
+<!-- <fieldset style="border: 5pt; border-color: black; border-style: solid; padding: 10px;"> -->
+<!-- <legend style="font-size: 2rem">Learning</legend> -->
+<h4><a href="jira.html" >JIRA</a></h4>
+<h4><a href="talkclub.html" style="color: yellow;">Talk Club</a></h4>
+<h4><a href="feedback.html" style="color: yellow;" >Feedback</a></h4>
+<h4><a href="DA.html">DA Meeting</a></h4>
+<h4><a href="newsletter.html"style="color: yellow;">TDP Newsletter</a></h4>
+<h4><a href="friday.html" style="color: yellow;">Friday Catch up</a></h4>
+</div>
+</fieldset>
+
+<!-- <br> -->
+
+<!-- <h3>Experience</h3> -->
+<div class="col-6 col-12-small">
+<fieldset style="border: 5pt; border-color: black; border-style: solid; padding: 10px; ">
+<legend style="font-size: 2rem">Activities</legend>
+<h4><a href="FCA.html">FCA DATA Request</a></h4>
+<h4><a href="cardms.html">CARDS POC</a></h4>
+<h4><a href="performance.html">Performance Testing</a></h4>
+<h4><a href="emsi.html">EMSI API</a> </h4>
+<h4><a href="hackathon.html" >Hackathon</a></h4>
+<h4><a href="academy.html" >QA Academy</a></h4>
+<h4><a href="project.html" >Personal Project</a></h4>
+</fieldset>
+</div>
+</div>		
+
+
+<!-- </nav>										   -->
+
+                     </div> 
+                    
+                 </section> 
+
+        </div>
+
+<!-- Footer -->
+        <footer id="footer">
+            <div class="inner">
+                <ul class="copyright">
+                    <li>&copy; Jaye Peacey</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+                </ul>
+            </div>
+        </footer>
+
+</div>`;
+    body.innerHTML = script;
+
+}
+// -----------------------------
